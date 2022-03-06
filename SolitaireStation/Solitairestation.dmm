@@ -3979,11 +3979,11 @@
 /turf/open/floor/iron/dark,
 /area/science/storage)
 "czQ" = (
-/obj/machinery/power/solar{
-	id = "permar";
-	name = "Perma Solar Array"
-	},
 /obj/structure/cable,
+/obj/machinery/power/solar{
+	id = "forestarboard";
+	name = "Fore-Starboard Solar Array"
+	},
 /turf/open/floor/iron/solarpanel/airless,
 /area/maintenance/solars/starboard/fore)
 "czX" = (
@@ -12714,10 +12714,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
-"hsp" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/maintenance/solars/port/aft)
 "hsE" = (
 /obj/machinery/door/airlock/security{
 	aiControlDisabled = 1;
@@ -59985,7 +59981,7 @@ uQk
 uQk
 uQk
 uQk
-hsp
+xOw
 xOw
 rCR
 meC
@@ -60499,7 +60495,7 @@ uQk
 uQk
 uQk
 uQk
-hsp
+xOw
 xOw
 rCR
 meC
@@ -60756,7 +60752,7 @@ uQk
 uQk
 uQk
 uQk
-hsp
+xOw
 xOw
 rCR
 meC
@@ -61270,7 +61266,7 @@ uQk
 uQk
 uQk
 uQk
-hsp
+xOw
 xOw
 rCR
 meC
@@ -61527,7 +61523,7 @@ uQk
 uQk
 uQk
 uQk
-hsp
+xOw
 xOw
 rCR
 meC
@@ -62041,7 +62037,7 @@ uQk
 uQk
 uQk
 uQk
-hsp
+xOw
 xOw
 rCR
 meC
@@ -93017,12 +93013,12 @@ meC
 meC
 meC
 rCR
-rCR
-rCR
-rCR
-qwH
-rCR
-rCR
+xOw
+xOw
+xOw
+xOw
+xOw
+xOw
 xOw
 xOw
 xOw
