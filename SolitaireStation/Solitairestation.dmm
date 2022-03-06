@@ -7180,7 +7180,6 @@
 /area/maintenance/solars/starboard/aft)
 "ein" = (
 /obj/structure/kitchenspike,
-/obj/effect/turf_decal/trimline/green/filled/corner,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/coldroom)
 "eir" = (
@@ -21242,12 +21241,6 @@
 	dir = 8
 	},
 /area/service/chapel)
-"lit" = (
-/obj/machinery/biogenerator,
-/obj/effect/turf_decal/trimline/green/filled/line,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/service/hydroponics)
 "liz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -36604,7 +36597,10 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
-/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/freezer{
+	name = "Coldroom";
+	req_one_access_txt = "28;35"
+	},
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "sYU" = (
@@ -91406,7 +91402,7 @@ elx
 elx
 glb
 sYM
-lit
+nlz
 nlz
 vNc
 wLe
