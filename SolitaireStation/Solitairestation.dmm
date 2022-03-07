@@ -4255,6 +4255,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/hallway/primary/central/fore)
 "cHm" = (
@@ -10369,9 +10371,11 @@
 /turf/open/floor/iron/dark,
 /area/science/lab)
 "gkl" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/cargo/office)
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/security/checkpoint/supply)
 "gks" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -12027,6 +12031,9 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "hiS" = (
@@ -17358,6 +17365,9 @@
 /area/service/lawoffice/upper)
 "kaE" = (
 /obj/item/radio/intercom/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "kbc" = (
@@ -20205,6 +20215,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/hallway/primary/central/fore)
 "lxJ" = (
@@ -24124,9 +24136,10 @@
 /turf/closed/wall,
 /area/service/hydroponics)
 "nlF" = (
-/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/hallway/primary/central/fore)
+/area/security/checkpoint/supply)
 "nmS" = (
 /obj/machinery/telecomms/bus/preset_one,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -25324,6 +25337,9 @@
 	id = "cargocell";
 	name = "Cargo Cell";
 	pixel_x = -32
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
@@ -29021,6 +29037,8 @@
 	},
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "qfM" = (
@@ -29090,6 +29108,8 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "qhe" = (
@@ -31381,6 +31401,9 @@
 	req_access_txt = "63"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "ryT" = (
@@ -31489,6 +31512,7 @@
 	dir = 1;
 	req_access_txt = "31"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/cargo/office)
 "rBG" = (
@@ -34602,6 +34626,9 @@
 /area/medical/treatment_center)
 "teM" = (
 /obj/machinery/light_switch/directional/west,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "tff" = (
@@ -40029,6 +40056,7 @@
 	},
 /obj/structure/reagent_dispensers/wall/peppertank/directional/north,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "vzl" = (
@@ -45747,6 +45775,9 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/cargo/storage)
 "yje" = (
@@ -81230,7 +81261,7 @@ qqp
 pJe
 rRb
 ybZ
-gkl
+hJO
 gne
 nYv
 nYv
@@ -82001,7 +82032,7 @@ itz
 rRb
 rRb
 rRb
-gkl
+hJO
 rKx
 nYv
 mBf
@@ -82260,8 +82291,8 @@ muW
 itF
 lpQ
 dfa
-nlF
-nlF
+mBf
+mBf
 qkn
 itE
 bvV
@@ -82762,10 +82793,10 @@ wBQ
 uiY
 laX
 vdZ
-uiY
+qEo
 yiO
 ryJ
-vbn
+gkl
 teM
 kaE
 vbn
@@ -83023,14 +83054,14 @@ hWD
 hWD
 jda
 wvt
-vbn
+gkl
 hix
-vbn
-vbn
+gkl
+gkl
 qfG
-vbn
-vbn
-vbn
+nlF
+nlF
+nlF
 vdE
 oee
 sQJ
