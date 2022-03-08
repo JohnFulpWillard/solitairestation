@@ -1548,7 +1548,7 @@
 "bcO" = (
 /obj/machinery/atmospherics/components/binary/pump/off{
 	dir = 4;
-	name = "Mix 1 Output"
+	name = "Mix Output"
 	},
 /obj/effect/turf_decal/tile/yellow/full{
 	color = "#FFD700"
@@ -23907,6 +23907,13 @@
 /obj/item/bedsheet/captain,
 /turf/open/floor/iron/grimy,
 /area/command/heads_quarters/captain/private)
+"ndC" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 6
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "ndG" = (
 /obj/item/toy/plush/lizard_plushie/green{
 	name = "Given-As-Compensation"
@@ -30695,6 +30702,13 @@
 "rav" = (
 /turf/open/floor/engine/o2,
 /area/engineering/atmos/upper)
+"rax" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "raA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -36541,6 +36555,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit)
+"uar" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 9
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "uau" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/effect/turf_decal/siding/red{
@@ -40931,6 +40952,11 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
+"vQB" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/passive_vent,
+/turf/open/space/basic,
+/area/space)
 "vQD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -44570,7 +44596,7 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/binary/pump/on{
+/obj/machinery/atmospherics/components/binary/pump/off{
 	dir = 4;
 	name = "Mix to Filter"
 	},
@@ -69898,7 +69924,7 @@ seZ
 seZ
 seZ
 seZ
-xOw
+ndC
 aGP
 ajy
 ouw
@@ -70155,7 +70181,7 @@ xOw
 xOw
 xOw
 xOw
-xOw
+rax
 szr
 szr
 czj
@@ -70411,8 +70437,8 @@ meC
 meC
 meC
 meC
-meC
-xOw
+vQB
+uar
 czj
 kpB
 vdt
