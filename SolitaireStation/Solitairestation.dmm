@@ -19516,7 +19516,7 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "kTR" = (
-/obj/effect/spawner/random/engineering/tracking_beacon,
+/obj/item/beacon,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "kTT" = (
@@ -36175,7 +36175,7 @@
 	name = "Command blue corner"
 	},
 /obj/effect/turf_decal/trimline/blue/corner,
-/obj/effect/spawner/random/engineering/tracking_beacon,
+/obj/item/beacon,
 /turf/open/floor/iron,
 /area/command/teleporter)
 "tvm" = (
