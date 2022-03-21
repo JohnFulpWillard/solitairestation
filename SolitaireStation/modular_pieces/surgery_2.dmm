@@ -44,6 +44,10 @@
 /obj/machinery/computer/operating,
 /obj/item/radio/intercom/directional/north,
 /obj/machinery/light/directional/east,
+/obj/machinery/requests_console/directional/east{
+	department = "Medbay";
+	name = "Surgery B Requests Console"
+	},
 /turf/open/floor/iron/white,
 /area/medical/surgery)
 "k" = (
@@ -235,6 +239,10 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /obj/machinery/light/directional/west,
+/obj/machinery/requests_console/directional/west{
+	department = "Medbay";
+	name = "Surgery A Requests Console"
+	},
 /turf/open/floor/iron/white,
 /area/medical/surgery)
 "S" = (

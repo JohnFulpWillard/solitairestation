@@ -107,7 +107,6 @@
 /obj/machinery/requests_console/directional/east{
 	announcementConsole = 1;
 	department = "Chief Medical Officer's Desk";
-	departmentType = 5;
 	name = "Chief Medical Officer's Requests Console"
 	},
 /obj/machinery/computer/security/telescreen/cmo{

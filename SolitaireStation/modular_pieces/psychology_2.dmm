@@ -194,6 +194,14 @@
 "V" = (
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
+"W" = (
+/obj/structure/chair/comfy/brown,
+/obj/machinery/requests_console/directional/north{
+	department = "Psychology";
+	name = "Psychologist Requests Console"
+	},
+/turf/open/floor/carpet,
+/area/medical/psychology)
 "X" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin/construction,
@@ -282,7 +290,7 @@ a
 q
 H
 e
-j
+W
 V
 D
 V
