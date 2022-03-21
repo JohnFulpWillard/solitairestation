@@ -86,6 +86,10 @@
 /obj/item/folder/blue,
 /obj/item/pen,
 /obj/item/clothing/mask/cigarette/pipe,
+/obj/machinery/requests_console/directional/north{
+	department = "Psychology";
+	name = "Psychologist Requests Console"
+	},
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "x" = (
@@ -199,10 +203,6 @@
 /obj/structure/cable,
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
-"Y" = (
-/obj/machinery/airalarm/directional/west,
-/turf/open/floor/carpet/orange,
-/area/medical/psychology)
 "Z" = (
 /obj/structure/closet/secure_closet/psychology,
 /obj/item/food/grown/tobacco,
@@ -226,7 +226,7 @@ a
 a
 g
 d
-Y
+s
 U
 G
 Q

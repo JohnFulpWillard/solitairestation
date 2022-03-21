@@ -100,8 +100,7 @@
 /obj/machinery/requests_console/directional/north{
 	announcementConsole = 1;
 	department = "Chief Medical Officer's Desk";
-	departmentType = 5;
-	name = "Chief Medical Officer"
+	name = "Chief Medical Officer's Requests Console""
 	},
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
