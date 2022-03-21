@@ -4277,8 +4277,8 @@
 /obj/effect/turf_decal/tile/neutral/full{
 	alpha = 255
 	},
-/obj/machinery/telecomms/server/presets/common,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/machinery/telecomms/server/presets/common,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "cIm" = (
@@ -4378,10 +4378,10 @@
 /turf/open/floor/iron/dark/side,
 /area/medical/treatment_center)
 "cNx" = (
-/obj/machinery/telecomms/processor/preset_one,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
 	},
+/obj/machinery/telecomms/processor/preset_four,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "cOo" = (
@@ -5138,10 +5138,10 @@
 /turf/open/floor/iron/white/textured_large,
 /area/medical/medbay/lobby)
 "dhL" = (
-/obj/machinery/telecomms/processor/preset_four,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
 	},
+/obj/machinery/telecomms/processor/preset_two,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "dir" = (
@@ -5473,12 +5473,11 @@
 /turf/closed/wall,
 /area/engineering/engine_smes)
 "dqs" = (
-/obj/effect/turf_decal/tile/blue/full{
-	color = "#73c2fb";
-	name = "Medical blue full"
-	},
-/obj/machinery/telecomms/server/presets/medical,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/machinery/telecomms/server/presets/security,
+/obj/effect/turf_decal/tile/red/full{
+	color = "#FF0000"
+	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "dqU" = (
@@ -7698,7 +7697,7 @@
 /turf/open/floor/iron,
 /area/cargo/warehouse)
 "exL" = (
-/obj/machinery/telecomms/bus/preset_three,
+/obj/machinery/telecomms/bus/preset_one,
 /turf/open/floor/iron/dark/telecomms,
 /area/engineering/storage/tcomms)
 "exO" = (
@@ -8104,7 +8103,7 @@
 /turf/open/floor/engine,
 /area/science/mixing)
 "eKO" = (
-/obj/machinery/telecomms/processor/preset_three,
+/obj/machinery/telecomms/processor/preset_one,
 /turf/open/floor/iron/dark/telecomms,
 /area/engineering/storage/tcomms)
 "eKT" = (
@@ -8539,7 +8538,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science/central)
 "eZF" = (
-/obj/machinery/telecomms/bus/preset_two,
+/obj/machinery/telecomms/processor/preset_three,
 /turf/open/floor/iron/dark/telecomms,
 /area/engineering/storage/tcomms)
 "eZL" = (
@@ -9160,12 +9159,10 @@
 /turf/open/floor/iron/dark,
 /area/hallway/primary/central/aft)
 "fum" = (
-/obj/effect/turf_decal/tile/red/full{
-	color = "#FF0000"
-	},
-/obj/machinery/telecomms/server/presets/security,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /obj/machinery/light/directional/west,
+/obj/machinery/telecomms/server/presets/supply,
+/obj/effect/turf_decal/tile/brown/full,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "fun" = (
@@ -21739,12 +21736,9 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "lTx" = (
-/obj/effect/turf_decal/tile/blue/full{
-	color = "#4169E1";
-	name = "Command blue full"
-	},
-/obj/machinery/telecomms/server/presets/command,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/machinery/telecomms/server/presets/service,
+/obj/effect/turf_decal/tile/green/full,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "lTA" = (
@@ -24747,10 +24741,10 @@
 /turf/open/floor/iron/smooth_half,
 /area/engineering/atmos/project)
 "nmS" = (
-/obj/machinery/telecomms/bus/preset_one,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
+/obj/machinery/telecomms/bus/preset_four,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "nmY" = (
@@ -36351,7 +36345,7 @@
 /turf/open/floor/iron/white,
 /area/science/genetics)
 "tzt" = (
-/obj/machinery/telecomms/processor/preset_two,
+/obj/machinery/telecomms/bus/preset_three,
 /turf/open/floor/iron/dark/telecomms,
 /area/engineering/storage/tcomms)
 "tAc" = (
@@ -37223,10 +37217,10 @@
 /turf/open/floor/iron,
 /area/commons/fitness/recreation)
 "tUT" = (
-/obj/machinery/telecomms/bus/preset_four,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
+/obj/machinery/telecomms/bus/preset_two,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "tUV" = (
@@ -39495,9 +39489,9 @@
 /obj/effect/turf_decal/tile/yellow/full{
 	color = "#FFD700"
 	},
-/obj/machinery/telecomms/server/presets/engineering,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /obj/machinery/light/directional/east,
+/obj/machinery/telecomms/server/presets/engineering,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "uPb" = (
@@ -41867,10 +41861,12 @@
 /turf/open/floor/iron/dark,
 /area/command/teleporter)
 "vOe" = (
-/obj/effect/turf_decal/tile/brown/full,
-/obj/machinery/telecomms/server/presets/supply,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
+	},
+/obj/machinery/telecomms/server/presets/science,
+/obj/effect/turf_decal/tile/purple/full{
+	color = "#4D0067"
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
@@ -45220,12 +45216,13 @@
 /turf/open/floor/iron/chapel,
 /area/service/chapel)
 "xnT" = (
-/obj/effect/turf_decal/tile/purple/full{
-	color = "#4D0067"
-	},
-/obj/machinery/telecomms/server/presets/science,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
+	},
+/obj/machinery/telecomms/server/presets/command,
+/obj/effect/turf_decal/tile/blue/full{
+	color = "#4169E1";
+	name = "Command blue full"
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
@@ -46018,9 +46015,12 @@
 /turf/closed/wall,
 /area/security/prison)
 "xKc" = (
-/obj/effect/turf_decal/tile/green/full,
-/obj/machinery/telecomms/server/presets/service,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/machinery/telecomms/server/presets/medical,
+/obj/effect/turf_decal/tile/blue/full{
+	color = "#73c2fb";
+	name = "Medical blue full"
+	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/engineering/storage/tcomms)
 "xKo" = (
