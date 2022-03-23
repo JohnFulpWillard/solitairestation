@@ -12184,7 +12184,7 @@
 /area/command/heads_quarters/captain)
 "hgw" = (
 /obj/machinery/door/airlock/command{
-	name = "Head of Personnel's EVA Storage";
+	name = "Head of Personnel's Office";
 	req_access_txt = "18;57"
 	},
 /obj/machinery/door/firedoor,
@@ -41904,11 +41904,11 @@
 	dir = 8;
 	name = "command blue"
 	},
+/obj/structure/cable,
 /obj/machinery/door/airlock/command/glass{
 	name = "EVA Storage Private";
-	req_access_txt = "18"
+	req_access_txt = "18;19"
 	},
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ai_monitored/command/storage/eva)
 "vOS" = (
@@ -41923,7 +41923,7 @@
 	},
 /obj/machinery/door/airlock/command/glass{
 	name = "EVA Storage Private";
-	req_access_txt = "18"
+	req_access_txt = "18;19"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
