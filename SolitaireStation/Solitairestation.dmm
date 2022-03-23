@@ -18983,6 +18983,7 @@
 /obj/structure/cable,
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/machinery/atmospherics/components/binary/tank_compressor,
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "kIK" = (
@@ -42083,7 +42084,7 @@
 /turf/open/floor/iron,
 /area/security/range)
 "vSo" = (
-/obj/machinery/atmospherics/components/binary/tank_compressor,
+/obj/machinery/research/anomaly_refinery,
 /turf/open/floor/iron,
 /area/science/mixing)
 "vSJ" = (
