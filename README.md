@@ -18,6 +18,7 @@ Once downloaded;
 - Put solitairestation.json in '/maps/'
 - Put modular_pieces.dm file in 'fulp_modules\mapping\helpers\' - Make sure you also put it in tgstation.dme!
 - Put solitairestation.toml file in 'fulp_modules\strings\modular_maps\'
+- Put cargo_solitaire.dmm in 'fulp_modules\mapping\shuttles\cargo\'
 - You may have to go in your config and add Solitairestation in your own rotation, before compiling
 
 SolitaireStation as of March 06 2022, after merging https://github.com/JohnFulpWillard/solitairestation/pull/24 - If you are reading this in the future, I forgot to update it.
