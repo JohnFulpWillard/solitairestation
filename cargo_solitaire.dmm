@@ -30,28 +30,19 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
-"e" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/supply)
-"f" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "cargoshuttle";
-	name = "cargo shuttle conveyor belt"
-	},
-/obj/structure/railing{
-	layer = 3.1;
-	pixel_y = -5
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
 "g" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/trimline/blue/arrow_cw,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium/purple,
+/area/shuttle/supply)
+"h" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/purple,
 /area/shuttle/supply)
 "i" = (
 /obj/effect/decal/cleanable/dirt,
@@ -63,7 +54,20 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/purple,
+/area/shuttle/supply)
+"j" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "cargoshuttle";
+	name = "cargo shuttle conveyor belt"
+	},
+/obj/structure/railing{
+	layer = 3.1;
+	pixel_y = -5
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "k" = (
 /obj/machinery/conveyor{
@@ -112,6 +116,11 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
+"o" = (
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating/airless,
+/area/shuttle/supply)
 "p" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -125,9 +134,6 @@
 "q" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/trimline/blue/arrow_cw{
-	dir = 8
-	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
 "r" = (
@@ -184,14 +190,6 @@
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/shuttle/supply)
-"z" = (
-/obj/machinery/conveyor{
-	id = "cargoshuttle";
-	name = "cargo shuttle conveyor belt"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
 "A" = (
 /obj/structure/railing{
 	dir = 8;
@@ -224,10 +222,15 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/supply)
 "D" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/titanium{
+	name = "Supply Shuttle Airlock";
+	req_access_txt = "31"
+	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/trimline/blue/arrow_cw,
-/turf/open/floor/mineral/titanium/purple,
+/obj/docking_port/mobile/supply{
+	height = 6
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "F" = (
 /obj/effect/decal/cleanable/dirt,
@@ -265,14 +268,11 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "K" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Supply Shuttle Airlock";
-	req_access_txt = "31"
+/obj/machinery/conveyor{
+	id = "cargoshuttle";
+	name = "cargo shuttle conveyor belt"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/docking_port/mobile/supply{
-	height = 6
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "L" = (
@@ -305,10 +305,10 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "P" = (
-/obj/effect/turf_decal/trimline/blue/arrow_cw{
-	dir = 9
-	},
 /obj/effect/decal/cleanable/glass,
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
 "Q" = (
@@ -340,16 +340,15 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "V" = (
-/obj/effect/turf_decal/trimline/blue/arrow_cw{
-	dir = 10
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/blue/arrow_cw,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "W" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/supply)
@@ -433,7 +432,7 @@ Y
 W
 L
 F
-D
+g
 U
 c
 R
@@ -443,12 +442,12 @@ T
 Q
 k
 n
-I
+h
 L
 m
 g
 I
-f
+j
 C
 T
 "}
@@ -460,7 +459,7 @@ p
 X
 G
 O
-z
+K
 c
 C
 T
@@ -472,9 +471,9 @@ Q
 u
 w
 y
-K
+D
 N
 Q
 Q
-e
+o
 "}
