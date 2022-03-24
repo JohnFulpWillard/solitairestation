@@ -41,6 +41,7 @@
 /obj/structure/chair/comfy/brown{
 	dir = 8
 	},
+/obj/effect/landmark/start/psychologist,
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "p" = (
@@ -141,6 +142,10 @@
 "J" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/carpet/orange,
+/area/medical/psychology)
+"K" = (
+/obj/effect/landmark/start/psychologist,
+/turf/open/floor/carpet,
 /area/medical/psychology)
 "M" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -269,7 +274,7 @@ M
 (6,1,1) = {"
 a
 p
-E
+K
 v
 s
 E

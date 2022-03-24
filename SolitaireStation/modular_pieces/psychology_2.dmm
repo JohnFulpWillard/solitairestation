@@ -200,6 +200,7 @@
 	department = "Psychology";
 	name = "Psychologist Requests Console"
 	},
+/obj/effect/landmark/start/psychologist,
 /turf/open/floor/carpet,
 /area/medical/psychology)
 "X" = (
