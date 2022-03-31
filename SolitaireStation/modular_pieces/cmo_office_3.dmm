@@ -29,6 +29,7 @@
 /area/command/heads_quarters/cmo)
 "f" = (
 /obj/modular_map_connector,
+/obj/structure/disposalpipe/segment,
 /turf/closed/wall/r_wall,
 /area/command/heads_quarters/cmo)
 "h" = (
@@ -81,6 +82,9 @@
 	name = "medical blue"
 	},
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "m" = (
@@ -404,6 +408,9 @@
 	name = "medical blue"
 	},
 /obj/machinery/computer/crew,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "X" = (
