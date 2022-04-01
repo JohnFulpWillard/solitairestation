@@ -2,6 +2,9 @@
 "cN" = (
 /obj/structure/cable,
 /obj/item/radio/intercom/directional/east,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "de" = (
@@ -31,6 +34,9 @@
 "kg" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "km" = (
@@ -40,6 +46,9 @@
 /area/service/lawoffice)
 "kw" = (
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
 /turf/open/floor/iron/grimy,
 /area/service/lawoffice/upper)
 "la" = (
@@ -51,12 +60,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/service/lawoffice)
 "mV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "oF" = (
@@ -68,6 +81,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/service/lawoffice/upper)
 "pk" = (
@@ -82,6 +96,9 @@
 	req_access_txt = "38"
 	},
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice/upper)
 "te" = (
@@ -155,6 +172,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "yC" = (
@@ -162,6 +182,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "AB" = (
@@ -176,6 +197,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/grimy,
 /area/service/lawoffice/upper)
 "DM" = (
@@ -203,6 +225,9 @@
 	department = "Law Office";
 	name = "Law Office Requests Console"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "HT" = (
@@ -228,6 +253,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/navbeacon/wayfinding/lawyer,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "Jv" = (
@@ -267,6 +293,9 @@
 	},
 /obj/effect/landmark/start/lawyer,
 /obj/machinery/newscaster/directional/south,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "QA" = (
@@ -283,6 +312,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/grimy,
 /area/service/lawoffice/upper)
 "SS" = (
@@ -366,6 +396,7 @@
 /area/service/lawoffice)
 "ZZ" = (
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 

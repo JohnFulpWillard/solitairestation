@@ -97,6 +97,9 @@
 	},
 /obj/machinery/light_switch/directional/north,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -107,7 +110,7 @@
 	},
 /obj/structure/table/glass,
 /obj/item/folder/blue,
-/obj/item/storage/firstaid/regular,
+/obj/item/storage/medkit/regular,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -129,6 +132,9 @@
 /obj/machinery/newscaster/directional/west,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -154,6 +160,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/modular_map_connector,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -165,6 +172,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},

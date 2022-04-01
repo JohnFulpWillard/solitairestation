@@ -20,6 +20,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -45,6 +46,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/modular_map_connector,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -59,6 +61,9 @@
 	dir = 1
 	},
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -206,6 +211,7 @@
 	dir = 4
 	},
 /obj/machinery/light/directional/east,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "x" = (
@@ -225,7 +231,7 @@
 	dir = 1
 	},
 /obj/structure/table/glass,
-/obj/item/storage/firstaid/regular,
+/obj/item/storage/medkit/regular,
 /obj/item/folder/blue,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -293,6 +299,7 @@
 /obj/effect/turf_decal/box/white{
 	color = "#52B4E9"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "F" = (
@@ -342,6 +349,16 @@
 "K" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
+/area/command/heads_quarters/cmo)
+"L" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "M" = (
 /turf/open/floor/iron/dark,
@@ -432,6 +449,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "X" = (
@@ -496,7 +514,7 @@ c
 W
 W
 E
-r
+L
 w
 h
 C
