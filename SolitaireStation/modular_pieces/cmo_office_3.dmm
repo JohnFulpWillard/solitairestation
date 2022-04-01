@@ -50,6 +50,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "j" = (
@@ -80,10 +81,6 @@
 	color = "#73c2fb";
 	dir = 1;
 	name = "medical blue"
-	},
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
 	},
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
@@ -159,6 +156,10 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "u" = (
@@ -287,6 +288,7 @@
 "I" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "J" = (
@@ -408,9 +410,7 @@
 	name = "medical blue"
 	},
 /obj/machinery/computer/crew,
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
 "X" = (
