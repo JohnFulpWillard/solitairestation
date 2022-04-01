@@ -18153,6 +18153,9 @@
 /obj/item/storage/medkit/toxin{
 	name = "ordnance treatment kit"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "jbL" = (
