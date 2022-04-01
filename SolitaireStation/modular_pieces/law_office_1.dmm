@@ -9,6 +9,9 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "c" = (
@@ -25,6 +28,9 @@
 /obj/structure/cable,
 /obj/machinery/light/directional/south,
 /obj/machinery/newscaster/directional/south,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "e" = (
@@ -36,11 +42,17 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/service/lawoffice)
 "f" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
 	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
@@ -81,6 +93,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/lawoffice/upper)
 "k" = (
@@ -105,6 +118,9 @@
 /area/service/lawoffice/upper)
 "n" = (
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "o" = (
@@ -126,6 +142,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "r" = (
@@ -145,6 +164,7 @@
 /turf/open/floor/carpet/blue,
 /area/service/lawoffice)
 "u" = (
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/lawoffice/upper)
 "v" = (
@@ -169,6 +189,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "z" = (
@@ -196,6 +219,12 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
 /area/service/lawoffice)
+"E" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/carpet/blue,
+/area/service/lawoffice)
 "F" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/security_space_law,
@@ -205,12 +234,16 @@
 "G" = (
 /obj/machinery/disposal/bin,
 /obj/machinery/light/directional/south,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/service/lawoffice/upper)
 "H" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "I" = (
@@ -227,8 +260,13 @@
 /area/service/lawoffice/upper)
 "K" = (
 /obj/structure/filingcabinet/employment,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/lawoffice/upper)
+"L" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/blue,
+/area/service/lawoffice)
 "M" = (
 /obj/structure/sign/directions/medical{
 	dir = 1
@@ -284,6 +322,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/service/lawoffice/upper)
 "T" = (
@@ -373,8 +412,8 @@ a
 x
 c
 v
-v
-v
+E
+L
 f
 N
 "}

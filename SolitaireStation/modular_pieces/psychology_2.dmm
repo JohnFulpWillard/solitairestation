@@ -6,6 +6,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "d" = (
@@ -74,6 +77,7 @@
 /obj/modular_map_connector{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "t" = (
@@ -99,6 +103,9 @@
 "z" = (
 /obj/structure/cable,
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "A" = (
@@ -156,6 +163,9 @@
 /area/medical/psychology)
 "O" = (
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "P" = (

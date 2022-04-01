@@ -33,6 +33,7 @@
 /obj/modular_map_connector{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "n" = (
@@ -52,6 +53,15 @@
 /area/medical/psychology)
 "q" = (
 /obj/item/kirbyplants/random,
+/turf/open/floor/carpet/orange,
+/area/medical/psychology)
+"r" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "s" = (
@@ -105,6 +115,12 @@
 /obj/structure/fireplace,
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
+"B" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/medical/psychology)
 "D" = (
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -141,6 +157,9 @@
 /area/medical/psychology)
 "J" = (
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/carpet/orange,
 /area/medical/psychology)
 "K" = (
@@ -257,7 +276,7 @@ q
 W
 f
 D
-W
+r
 l
 "}
 (5,1,1) = {"
@@ -268,7 +287,7 @@ a
 x
 E
 E
-s
+B
 M
 "}
 (6,1,1) = {"
@@ -279,7 +298,7 @@ v
 s
 E
 E
-s
+B
 M
 "}
 (7,1,1) = {"
