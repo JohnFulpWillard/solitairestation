@@ -11,6 +11,11 @@
 /obj/item/clothing/glasses/sunglasses,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
+"c" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
+/area/service/lawoffice)
 "d" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -24,6 +29,9 @@
 	pixel_y = 12
 	},
 /obj/item/pen/red,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "e" = (
@@ -48,6 +56,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "j" = (
@@ -56,6 +65,17 @@
 	},
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/wood,
+/area/service/lawoffice)
+"k" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "law3";
+	name = "Law Office Shared Privacy Door"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/service/lawoffice)
 "l" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -122,6 +142,12 @@
 "w" = (
 /turf/closed/wall/r_wall,
 /area/service/lawoffice)
+"x" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/service/lawoffice)
 "y" = (
 /obj/structure/sign/directions/medical{
 	dir = 1
@@ -141,6 +167,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "A" = (
@@ -149,6 +176,13 @@
 "B" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood,
+/area/service/lawoffice)
+"D" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "F" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -160,6 +194,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "H" = (
@@ -173,6 +208,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "J" = (
@@ -186,6 +222,10 @@
 /obj/machinery/requests_console/directional/south{
 	department = "Law Office";
 	name = "Law Office Requests Console"
+	},
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/service/lawoffice)
@@ -230,7 +270,17 @@
 /area/service/lawoffice)
 "S" = (
 /obj/machinery/light_switch/directional/south,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/open/floor/wood,
+/area/service/lawoffice)
+"T" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "U" = (
 /obj/structure/cable,
@@ -252,6 +302,9 @@
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
 "Z" = (
@@ -266,7 +319,7 @@
 f
 a
 a
-n
+k
 n
 a
 a
@@ -275,7 +328,7 @@ a
 f
 a
 B
-A
+x
 Z
 B
 a
@@ -302,8 +355,8 @@ a
 f
 n
 g
-e
-R
+T
+c
 K
 a
 "}
@@ -330,7 +383,7 @@ G
 z
 I
 i
-R
+D
 r
 a
 "}
@@ -339,7 +392,7 @@ f
 n
 l
 F
-e
+T
 S
 a
 "}
