@@ -16122,7 +16122,7 @@
 /obj/structure/disposalpipe/sorting/mail/flip{
 	dir = 4;
 	name = "detective sorting pipe";
-	sortType = 29
+	sortType = 30
 	},
 /turf/open/floor/iron/grimy,
 /area/security/detectives_office)
