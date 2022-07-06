@@ -82,6 +82,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/effect/landmark/navigate_destination/lawyer,
 /turf/open/floor/iron,
 /area/service/lawoffice/upper)
 "pk" = (
@@ -252,7 +253,6 @@
 	req_access_txt = "38"
 	},
 /obj/structure/cable,
-/obj/machinery/navbeacon/wayfinding/lawyer,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/service/lawoffice)
@@ -325,6 +325,9 @@
 "Ux" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
