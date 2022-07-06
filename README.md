@@ -2,7 +2,8 @@
 
 This repository was created for anyone to contribute to the revival of Solitairestation 2, now it is for the archival of it.
 
-History: 
+## History of Solitairestation
+
 Solitairestation was created on July 22, 2021 by TheOnlySolitaire (https://github.com/fulpstation/fulpstation/pull/290)
 
 Solitairestation was officially added to the Fulpstation rotation on December 27, 2021 by Helianthus00
@@ -31,9 +32,10 @@ Solitairestation 2 closed from auto-stale on June 1 2021, ending the testmerge
 
 The last known commit this version of the map works on is https://github.com/fulpstation/fulpstation/commit/f2106b80bd1aeade0b0a3e94a8393b40640524fe
 
-## How to run:
+## How to run
 
-Once downloaded;
+Once downloaded:
+
 - Put the solitarestation folder in '/maps/map_files/'
 
 - Put solitairestation.json in '/maps/'
