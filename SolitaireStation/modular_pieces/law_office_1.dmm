@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "b" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -13,7 +13,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "c" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "Prosecution1";
@@ -21,7 +21,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "d" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -32,7 +32,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "e" = (
 /obj/machinery/door/airlock{
 	name = "Prosecution Office";
@@ -46,7 +46,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "f" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -55,7 +55,7 @@
 	dir = 9
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "g" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -66,14 +66,13 @@
 /obj/structure/rack,
 /obj/item/storage/briefcase,
 /obj/item/taperecorder,
-/obj/item/cartridge/lawyer,
 /obj/item/clothing/glasses/sunglasses,
 /obj/machinery/camera/directional/north{
 	c_tag = "Law Office";
 	name = "Law Office Camera"
 	},
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "i" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "law3";
@@ -106,7 +105,7 @@
 "l" = (
 /obj/structure/filingcabinet/chestdrawer/wheeled,
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "m" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -122,12 +121,12 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "o" = (
 /obj/structure/chair/comfy/black,
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "p" = (
 /obj/item/flashlight/lamp,
 /obj/structure/table/wood,
@@ -146,7 +145,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "r" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -162,14 +161,14 @@
 /obj/machinery/photocopier,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "u" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/lawoffice/upper)
 "v" = (
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "w" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -183,7 +182,7 @@
 /area/service/lawoffice/upper)
 "x" = (
 /turf/open/floor/iron,
-/area/hallway/primary/central/aft)
+/area/station/hallway/primary/central/aft)
 "y" = (
 /obj/machinery/airalarm/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -193,7 +192,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "z" = (
 /obj/machinery/photocopier,
 /obj/item/radio/intercom/directional/south,
@@ -205,7 +204,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "B" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -218,13 +217,13 @@
 "D" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "E" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "F" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/security_space_law,
@@ -245,7 +244,7 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
-/area/hallway/primary/central/aft)
+/area/station/hallway/primary/central/aft)
 "I" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -266,7 +265,7 @@
 "L" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "M" = (
 /obj/structure/sign/directions/medical{
 	dir = 1
@@ -287,7 +286,7 @@
 	req_access_txt = "38"
 	},
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "O" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -296,7 +295,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron,
-/area/hallway/primary/central/aft)
+/area/station/hallway/primary/central/aft)
 "P" = (
 /turf/open/floor/carpet/purple,
 /area/service/lawoffice/upper)
@@ -304,7 +303,7 @@
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/security_space_law,
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "R" = (
 /obj/machinery/button/door/directional/north{
 	id = "Prosecution1";
@@ -315,7 +314,7 @@
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/wood,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "S" = (
 /obj/machinery/door/airlock{
 	name = "Public Defenders Office";
@@ -332,7 +331,7 @@
 "T" = (
 /obj/modular_map_connector,
 /turf/open/floor/iron,
-/area/hallway/primary/central/aft)
+/area/station/hallway/primary/central/aft)
 "U" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -347,7 +346,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "W" = (
 /turf/closed/wall/r_wall,
 /area/service/lawoffice/upper)
@@ -361,7 +360,7 @@
 /obj/structure/table/wood,
 /obj/item/toy/figure/lawyer,
 /turf/open/floor/carpet/blue,
-/area/service/lawoffice)
+/area/station/service/lawoffice)
 "Z" = (
 /obj/structure/cable,
 /turf/open/floor/carpet/purple,

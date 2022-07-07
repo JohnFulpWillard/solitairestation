@@ -1,24 +1,24 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "d" = (
 /obj/structure/chair/comfy/brown{
 	color = "#87CEFA";
 	dir = 4
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "f" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "g" = (
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "l" = (
 /obj/machinery/door/airlock{
 	name = "Psychology Office";
@@ -35,7 +35,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "n" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/light_switch/directional/east,
@@ -44,17 +44,17 @@
 	},
 /obj/effect/landmark/start/psychologist,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "p" = (
 /obj/machinery/newscaster/directional/west,
 /obj/structure/bed,
 /obj/item/bedsheet/cmo,
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "q" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "r" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -63,24 +63,24 @@
 	dir = 6
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "s" = (
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "t" = (
 /obj/machinery/button/door/directional/south{
 	id = "psychology";
 	name = "Psychology Privacy Shutters"
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "u" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay maintenance access";
 	req_one_access_txt = "70"
 	},
 /turf/open/floor/plating,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "v" = (
 /obj/machinery/door/airlock{
 	name = "Psychology Office";
@@ -90,7 +90,7 @@
 	cycle_id = "Psychology"
 	},
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "w" = (
 /obj/machinery/airalarm/directional/east,
 /obj/structure/table/wood,
@@ -100,7 +100,7 @@
 	},
 /obj/machinery/computer/med_data/laptop,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "x" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -108,34 +108,34 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "A" = (
 /obj/structure/fireplace,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "B" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "D" = (
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "E" = (
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "F" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin/construction,
 /obj/item/storage/crayons,
 /obj/item/pen,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "G" = (
 /obj/structure/chair/sofa/left{
 	desc = "Made of very expensive furs, probably from an endangered animal.";
@@ -145,31 +145,31 @@
 /obj/machinery/light/directional/west,
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "H" = (
 /mob/living/simple_animal/pet/dog/bullterrier{
 	name = "Burton";
 	real_name = "Burton"
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "J" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "K" = (
 /obj/effect/landmark/start/psychologist,
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "L" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue,
 /obj/item/pen,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "M" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -177,7 +177,7 @@
 	name = "Psychology Privacy Door"
 	},
 /turf/open/floor/plating,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "N" = (
 /obj/machinery/door/airlock{
 	name = "Psychology Office";
@@ -187,13 +187,13 @@
 	cycle_id = "Psychology"
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "P" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "Q" = (
 /obj/structure/chair/sofa/right{
 	desc = "Made of very expensive furs, probably from an endangered animal.";
@@ -202,19 +202,19 @@
 	},
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "S" = (
 /obj/machinery/light/directional/east,
 /obj/structure/chair/comfy/brown{
 	dir = 8
 	},
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "T" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "U" = (
 /obj/machinery/camera/directional/west{
 	c_tag = "Psychology Office";
@@ -224,13 +224,13 @@
 /obj/item/toy/plush/moth,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "W" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/carpet/orange,
-/area/medical/psychology)
+/area/station/medical/psychology)
 "Z" = (
 /obj/structure/closet/secure_closet/psychology,
 /obj/item/food/grown/tobacco,
@@ -238,7 +238,7 @@
 /obj/item/food/grown/tobacco,
 /obj/item/clothing/mask/cigarette/pipe,
 /turf/open/floor/carpet,
-/area/medical/psychology)
+/area/station/medical/psychology)
 
 (1,1,1) = {"
 a
