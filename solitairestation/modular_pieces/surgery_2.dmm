@@ -1,31 +1,37 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall,
-/area/maintenance/department/medical/central)
+/area/station/maintenance/department/medical/central)
 "b" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /obj/machinery/firealarm/directional/south,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "d" = (
 /obj/structure/table,
 /obj/machinery/newscaster/directional/west,
+/obj/item/reagent_containers/food/drinks/coffee,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "e" = (
 /obj/structure/chair{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/paramedic,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "f" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/machinery/newscaster/directional/east,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "g" = (
 /obj/machinery/vending/wallmed/directional/west,
 /obj/structure/table,
@@ -33,7 +39,7 @@
 /obj/item/reagent_containers/medigel/sterilizine,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "h" = (
 /obj/machinery/computer/operating,
 /obj/item/radio/intercom/directional/north,
@@ -43,21 +49,14 @@
 	name = "Surgery B Requests Console"
 	},
 /turf/open/floor/iron/white,
-/area/medical/surgery)
-"j" = (
-/turf/closed/wall,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "k" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
-"l" = (
-/obj/machinery/vending/drugs,
-/turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "m" = (
 /obj/machinery/smartfridge/organ,
 /obj/machinery/door/poddoor/preopen{
@@ -65,39 +64,46 @@
 	name = "Surgery Privacy Door"
 	},
 /turf/closed/wall,
-/area/medical/surgery)
+/area/station/medical/surgery)
+"n" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/paramedic,
+/turf/open/floor/iron/dark,
+/area/station/medical/surgery)
 "o" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "p" = (
 /obj/machinery/door/airlock/medical{
-	name = "Operating Theatre A";
-	req_access_txt = "45"
+	name = "Operating Theatre A"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/medical/surgery,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "r" = (
 /obj/machinery/vending/wallmed/directional/east,
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/item/reagent_containers/medigel/sterilizine,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "s" = (
 /obj/machinery/door/airlock/medical{
-	name = "Operating Theatre B";
-	req_access_txt = "45"
+	name = "Operating Theatre B"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/medical/surgery,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "t" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Surgery Observation"
@@ -109,25 +115,26 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "u" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "v" = (
 /obj/structure/table,
 /obj/item/clothing/suit/apron/surgical,
 /obj/item/clothing/gloves/color/latex,
 /obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/white,
+/area/station/medical/surgery)
+"x" = (
+/obj/structure/table,
+/obj/item/radio/intercom/directional/north,
+/obj/item/clothing/suit/apron/surgical,
 /obj/item/clothing/mask/surgical,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
-"x" = (
-/obj/item/radio/intercom/directional/north,
-/obj/structure/closet/crate/freezer/surplus_limbs,
-/turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "y" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -135,25 +142,26 @@
 	name = "Surgery Privacy Door"
 	},
 /turf/open/floor/plating,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "z" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
+"A" = (
+/turf/closed/wall,
+/area/station/medical/surgery)
 "B" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "C" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/paramedic,
+/obj/machinery/holopad,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "D" = (
 /obj/structure/table/optable,
 /obj/machinery/button/door/directional/north{
@@ -169,48 +177,43 @@
 	req_access_txt = "5"
 	},
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "E" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "F" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/iron/white,
-/area/medical/surgery)
-"H" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/paramedic,
-/turf/open/floor/iron/dark,
-/area/medical/surgery)
-"I" = (
-/obj/machinery/iv_drip,
+/area/station/medical/surgery)
+"G" = (
+/obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
+"I" = (
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/turf/open/floor/iron/white,
+/area/station/medical/surgery)
 "J" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "K" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "L" = (
-/obj/structure/chair{
-	dir = 1
-	},
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "M" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -218,7 +221,7 @@
 	name = "Surgery A Privacy Door"
 	},
 /turf/open/floor/plating,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "O" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -226,7 +229,11 @@
 	name = "Surgery B Privacy Door"
 	},
 /turf/open/floor/plating,
-/area/medical/surgery)
+/area/station/medical/surgery)
+"Q" = (
+/obj/machinery/vending/drugs,
+/turf/open/floor/iron/white/textured_large,
+/area/station/medical/surgery)
 "R" = (
 /obj/machinery/computer/operating,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -237,14 +244,14 @@
 	name = "Surgery A Requests Console"
 	},
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "S" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "T" = (
 /obj/structure/table/optable,
 /obj/machinery/button/door/directional/north{
@@ -260,33 +267,31 @@
 	req_access_txt = "5"
 	},
 /turf/open/floor/iron/white,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "U" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "V" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/drinks/coffee,
-/obj/machinery/newscaster/directional/east,
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 "W" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
-/area/medical/surgery)
+/area/station/medical/surgery)
 
 (1,1,1) = {"
 a
-j
-j
-j
-j
-j
-j
-j
-j
+A
+A
+A
+A
+A
+A
+A
+A
 "}
 (2,1,1) = {"
 a
@@ -297,7 +302,7 @@ M
 o
 d
 o
-j
+A
 "}
 (3,1,1) = {"
 a
@@ -306,9 +311,9 @@ k
 B
 p
 J
-H
+J
 W
-j
+A
 "}
 (4,1,1) = {"
 a
@@ -317,9 +322,9 @@ z
 I
 M
 S
-J
+n
 b
-j
+A
 "}
 (5,1,1) = {"
 a
@@ -327,7 +332,7 @@ m
 y
 y
 y
-l
+C
 J
 J
 t
@@ -336,12 +341,12 @@ t
 a
 v
 F
-I
+G
 O
 e
 U
 o
-j
+A
 "}
 (7,1,1) = {"
 a
@@ -350,9 +355,9 @@ E
 K
 s
 U
-C
 W
-j
+A
+A
 "}
 (8,1,1) = {"
 a
@@ -362,17 +367,17 @@ f
 O
 L
 V
-o
-j
+A
+Q
 "}
 (9,1,1) = {"
 a
-j
-j
-j
-j
-j
-j
-j
-j
+A
+A
+A
+A
+A
+A
+A
+A
 "}
