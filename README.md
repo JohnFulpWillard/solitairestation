@@ -2,6 +2,8 @@
 
 This repository was created for anyone to contribute to the revival of Solitairestation 2, now it is for the archival of it.
 
+This MAY potentially be updated from time-to-time, but never expect this to be maintained at all.
+
 ## History of Solitairestation
 
 Solitairestation was created on July 22, 2021 by TheOnlySolitaire (https://github.com/fulpstation/fulpstation/pull/290)
@@ -30,7 +32,7 @@ Solitairestation 2 testmerges started on May 3 2021
 
 Solitairestation 2 closed from auto-stale on June 1 2021, ending the testmerge
 
-The last known commit this version of the map works on is https://github.com/fulpstation/fulpstation/commit/f2106b80bd1aeade0b0a3e94a8393b40640524fe
+The last known commit this version of the map works on is https://github.com/fulpstation/fulpstation/pull/726/commits/c531aff8c9d364b11416dbd2df7d5f24df139f6d
 
 ## How to run
 
@@ -40,11 +42,11 @@ Once downloaded:
 
 - Put solitairestation.json in '/maps/'
 
-- Put modular_pieces.dm file in 'fulp_modules\mapping\helpers\' - Make sure you also put it in tgstation.dme!
+- Put modular_pieces.dm file in 'fulp_modules/mapping/helpers/' - Make sure you also put it in tgstation.dme!
 
-- Put solitairestation.toml file in 'fulp_modules\strings\modular_maps\'
+- Put solitairestation.toml file in 'fulp_modules/strings/modular_maps/'
 
-- Put shuttle .dmm files in /maps/map_files/shuttles'
+- Put shuttle .dmm files in '/maps/map_files/shuttles/'
 
 - You may have to go in your config and add Solitairestation in your own rotation, before compiling
 
